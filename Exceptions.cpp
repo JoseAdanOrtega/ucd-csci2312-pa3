@@ -6,10 +6,10 @@
 
 namespace Clustering {
 
-    Clustering::OutOfBoundsEx(unsigned int c, int r){
+    OutOfBoundsEx::OutOfBoundsEx(unsigned int c, int r){
          __current = c;
          __rhs = r;
-         __name = "OutBoundsEx";
+         __name = "OutofBoundsEx";
     }
 
     unsigned int OutOfBoundsEx::getCurrent() const{
